@@ -27,7 +27,7 @@ class PaddleSDK {
 		this.server = (options && options.server) || SERVER_URL;
 		if(sandbox)
 		{
-		    this.server = "https://sandbox-vendors.paddle.com/api/2.0
+		    this.server = "https://sandbox-vendors.paddle.com/api/2.0";
 		}
 	}
 
